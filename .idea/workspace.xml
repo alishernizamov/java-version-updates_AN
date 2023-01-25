@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates in the code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "14",
     "last_opened_file_path": "D:/Documents/Java/Java Learning/java-version-updates_AN",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
-      <workItem from="1674605687316" duration="6284000" />
+      <workItem from="1674605687316" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674610843160</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates in the code">
+      <created>1674612297651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674612297651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
