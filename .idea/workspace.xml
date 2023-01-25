@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="Created more classes">
-      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Team.java" afterDir="false" />
+    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates in the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/cydeo/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
-      <workItem from="1674605687316" duration="4623000" />
+      <workItem from="1674605687316" duration="6284000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674609292801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates in the code">
+      <created>1674610843160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674610843160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +133,7 @@
     <MESSAGE value="New Maven Project" />
     <MESSAGE value="Reorganized the directory&#10;Updated the codes" />
     <MESSAGE value="Created more classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created more classes" />
+    <MESSAGE value="updates in the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates in the code" />
   </component>
 </project>

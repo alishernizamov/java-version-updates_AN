@@ -25,10 +25,14 @@ public class Main {
         SoccerPlayer beckham = new SoccerPlayer("beckham"); //Beckham registered himself for Soccer
 
 
-        Team liverpool = new Team("Liverpool"); //Team is accepting any object
-        liverpool.addPlayer(joe);
-        liverpool.addPlayer(pat);
+        Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team is accepting any object
+
+//        liverpool.addPlayer(joe);
+//        liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
+
+
+
 
 
     }
