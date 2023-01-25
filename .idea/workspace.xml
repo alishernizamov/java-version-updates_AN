@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates in the code">
-      <change afterPath="$PROJECT_DIR$/m2-enum/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="reorganized">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/CurrencyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/ProjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "14",
     "last_opened_file_path": "D:/Documents/Java/Java Learning/java-version-updates_AN",
@@ -62,10 +70,24 @@
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics_\src\main\java" />
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
+      <module name="m2-enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
       <module name="java-version-updates_AN" />
@@ -81,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -93,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
-      <workItem from="1674605687316" duration="6681000" />
+      <workItem from="1674605687316" duration="10788000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -130,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674612297651</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reorganized">
+      <created>1674612966269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674612966269</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +171,7 @@
     <MESSAGE value="Reorganized the directory&#10;Updated the codes" />
     <MESSAGE value="Created more classes" />
     <MESSAGE value="updates in the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates in the code" />
+    <MESSAGE value="reorganized" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorganized" />
   </component>
 </project>
