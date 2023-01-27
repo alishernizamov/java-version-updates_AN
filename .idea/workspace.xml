@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/CountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/OddPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/SwapValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/UnaryPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m3_lambda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/ArraySorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
-      <workItem from="1674605687316" duration="20998000" />
+      <workItem from="1674605687316" duration="21709000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674616865874</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates">
+      <created>1674786682117</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674786682117</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
