@@ -40,6 +40,11 @@ public class Main {
         System.out.println("Operation task");
         calculate(3, 5, Operation.PLUS);
 
+        System.out.println("How to retrieve the constant value");
+        System.out.println(Currency.PENNY.getValue()); //this will print the object's value
+        System.out.println(Currency.QUARTER.getValue());
+        System.out.println(Currency.QUARTER.ordinal()); //ordinal() provides index number of constant
+
     }
 
     private static void calculate(double x, double y, Operation ooperation){

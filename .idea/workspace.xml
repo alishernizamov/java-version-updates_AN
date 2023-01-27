@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="reorganized">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/CurrencyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/ProjectStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/CountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/OddPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/SwapValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics_/src/main/java/com/cydeo/tasks/UnaryPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "D:/Documents/Java/Java Learning/java-version-updates_AN",
+    "last_opened_file_path": "D:/Documents/Java/Java Learning/java-version-updates_AN/m1-generics_/src/main/java/com/cydeo/tasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics_\src\main\java\com\cydeo\tasks" />
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,7 +77,20 @@
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.CountTest">
+    <configuration name="CountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tasks.CountTest" />
+      <module name="m1-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
       <module name="m2-enum" />
@@ -101,8 +117,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwapValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tasks.SwapValues" />
+      <module name="m1-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTest" />
+        <item itemvalue="Application.SwapValues" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -116,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
-      <workItem from="1674605687316" duration="10788000" />
+      <workItem from="1674605687316" duration="20998000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -160,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674612966269</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1674616865874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674616865874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +210,7 @@
     <MESSAGE value="Created more classes" />
     <MESSAGE value="updates in the code" />
     <MESSAGE value="reorganized" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorganized" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
