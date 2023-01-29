@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd240b80-f66d-4478-a945-9cf7c9c5fa78" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/ArraySorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/AppleGreenColorPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/AppleHeavyPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/ApplePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/AppleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/farmer/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m1-generics_/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m1-generics_/target/classes/src/main/java/com/cydeo/Requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m1-generics_/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m1-generics_/target/classes/target/classes/src/main/java/com/cydeo/Requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3_lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m3_lambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/ArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3_lambda/src/main/java/cydeo/ArraySorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +55,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "D:/Documents/Java/Java Learning/java-version-updates_AN/m1-generics_/src/main/java/com/cydeo/tasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;14&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Java/Java Learning/java-version-updates_AN/m1-generics_/src/main/java/com/cydeo/tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics_\src\main\java\com\cydeo\tasks" />
@@ -73,7 +84,20 @@
       <recent name="D:\Documents\Java\Java Learning\java-version-updates_AN\m1-generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountTest">
+  <component name="RunManager" selected="Application.AppleTest">
+    <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cydeo.farmer.AppleTest" />
+      <module name="m3_lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cydeo.farmer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tasks.CountTest" />
       <module name="m1-generics" />
@@ -100,9 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
-      <module name="java-version-updates_AN" />
+      <module name="m1-generics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -128,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppleTest" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.CountTest" />
         <item itemvalue="Application.SwapValues" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +169,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674605685950</updated>
       <workItem from="1674605687316" duration="21709000" />
+      <workItem from="1674874115474" duration="7189000" />
+      <workItem from="1674882173153" duration="8212000" />
     </task>
     <task id="LOCAL-00001" summary="New Maven Project">
       <created>1674605804601</created>
@@ -215,5 +242,9 @@
     <MESSAGE value="reorganized" />
     <MESSAGE value="updates" />
     <option name="LAST_COMMIT_MESSAGE" value="updates" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
